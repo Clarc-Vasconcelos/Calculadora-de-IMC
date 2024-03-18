@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(0, 0, 0);
+  color: rgb(5, 5, 4);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.bigBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 10px;
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+.formStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  background-color: #2b84d6;
+  padding: 30px 35px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px rgba(86, 70, 70, 0.1 );
+  row-gap: 5px;
+}
+
+label::after {
+  content: ":";
+}
+
+label {
+  font-weight: 700;
+
+}
+
+.descriptionInput {
+  font-size: 0.72rem;
+
+}
+
+.inputWithDescription {
+  margin-bottom: 0;
+}
+
+input {
+  margin: 0rem auto 0.7rem;
+  font-size: 16px;
+  color: #363636;
+  padding: 4px;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border-color: #363636;
+}
+
+input::placeholder {
+  color: #363636;
+  font-size: 14px;
+}
+
+button {
+  margin: 0.7rem auto;
+  background-color: orange;
+  font-size: 16px;
+  color: #363636;
+  padding: 4px;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.boxResult {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+  margin: 0rem auto 0.5rem;
+}
+
+.boxTextDescription {
+  background-color: white;
+  color: black;
+  justify-content: center;
+  padding: 0.5rem 0.75rem;
+
+}
