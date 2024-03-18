@@ -8,7 +8,7 @@ O projeto se compõe em uma calculadora que entrega o Índice de Massa Corporal 
 ![IMC-calc-project](https://github.com/Clarc-Vasconcelos/My-Web-Page/assets/129234188/b9d69488-050c-46af-8d46-db6f450de707)
 <br />
 
-<p>Para visualizar a página em ação, acesse este <a href='xxxxx' target='_blank'>link</a>.</p>
+<p>Para visualizar a página em ação, acesse este <a href='https://calculadora-de-imc-bay.vercel.app/' target='_blank'>link</a>.</p>
 
 ## Tecnologias Utilizadas
 <ul>
