@@ -20,13 +20,13 @@ O projeto se compõe em uma calculadora que entrega o Índice de Massa Corporal 
 
 ## Como Executar o Projeto
 <ul>
-<li>em sua máquina, faça um clone do meu projeto, com o comando `git clone` <link-do-repositório>".
+<li>em sua máquina, faça um clone do meu projeto, com o comando `git clone` + link-do-repositório".
 </li>
 <li>intale as dependências do projeto com o comando `npm install`.
 </li>
 <li>execute localmente o projeto com o comando `npm start`.
 </li>
-<li>acesse o link gerado ou abra o navegador em <http://localhost:3000> para visualizar o projeto em execução.
+<li>acesse o link gerado ou abra o navegador em http://localhost:(número gerado) para visualizar o projeto em execução.
 </li>
 </ul>
 
